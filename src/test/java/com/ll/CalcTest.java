@@ -46,4 +46,10 @@ public class CalcTest {
         int rs = Calc.run("10 / 10");
         assertThat(rs).isEqualTo(1);
     }
+
+    @Test
+    @DisplayName("수식에 괄호 포함")
+    void t7(){
+        
+    }
 }
