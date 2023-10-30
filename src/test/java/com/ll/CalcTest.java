@@ -48,8 +48,9 @@ public class CalcTest {
     }
 
     @Test
-    @DisplayName("수식에 괄호 포함")
+    @DisplayName("(10 + 10) = 20")
     void t7(){
-        
+        int rs = Calc.run("(10 + 10)");
+        assertThat(rs).isEqualTo(20);
     }
 }
